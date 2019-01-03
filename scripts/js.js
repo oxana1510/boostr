@@ -4,7 +4,8 @@ $(document).ready(function(){
   infinite: true,
   speed: 500,
   fade: true,
-  cssEase: 'linear',
+  cssEase: false,
+  centerMode: true,
   prevArrow: '<button type="button" class="slick-prev">Next</button>',
   nextArrow: '<button type="button" class="slick-next">Next</button>'
   });
